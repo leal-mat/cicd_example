@@ -25,7 +25,7 @@ except KeyError:
     # raise
 
 
-if __name__ == "__main__":
+if __name__ = "__main__":
     logger.info(f"Token value: {SOME_SECRET}")
 
     r = requests.get(
